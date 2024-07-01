@@ -15,16 +15,19 @@ console.log(anio)
 const diaPreguntado = parseInt(prompt("dime tu dia de nacimiento"))
 const mesPreguntado = parseInt(prompt("dime tu mes de nacimiento"))
 const anioPreguntado = parseInt(prompt("dime tu año de nacimiento"))
+console.log(diaPreguntado)
+console.log(mesPreguntado)
+console.log(anioPreguntado)
 
-if( diaPreguntado == dia && mesPreguntado == mes && anioPreguntado == anio ) {
-    console.log ("hoy es tu cumpleaños cara de pija")
-    console.log("son iguales")
-}
-    else {
-        console.log("segui participando salame")
-        console.log("no son iguales")
+
+    
+    if( diaPreguntado == dia && mesPreguntado == mes && anioPreguntado == anio ) {
+        console.log ("hoy es tu cumpleaños cara de pija")
+        console.log("son iguales")
     }
-
-    console.log(diaPreguntado)
-    console.log(mesPreguntado)
-    console.log(anioPreguntado)
+        else {
+            console.log("segui participando salame")
+            console.log("no son iguales")
+        }
+    
+        
